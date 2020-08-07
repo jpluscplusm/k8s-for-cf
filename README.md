@@ -1,11 +1,11 @@
 
-# Cloud Foundry for Kubernetes
-Cloud Foundry is an open source cloud platform as a service (PaaS) on which developers can build, deploy, run and scale applications. Cloud Foundry for Kubernetes (cf-for-k8s) is a Kubernetes native artifact to deploy Cloud Foundry on a Kubernetes cluster. 
+# Kubernetes for Cloud Foundry
+Cloud Foundry is an open source cloud platform as a service (PaaS) on which developers can build, deploy, run and scale applications. Kubernetes for Cloud Foundry (k8s-for-cf) is a Cloud Foundry native artifact to deploy Kubernetes on a Cloud Foundry foundation. 
 
 For more information on what Cloud Foundry is and how it can help developers build cloud native applications and platform operators to manage those apps at scale, please visit [cloudfoundry.org](https://cloudfoundry.org) and [docs.cloudfoundry.org](https://docs.cloudfoundry.org/)
 
 ## Getting Started
-See [Deploying CF for K8s](docs/deploy.md) to get your Cloud Foundry up and running on a Kubernetes cluster for development and testing purposes.
+See [Deploying K8s for CF](docs/deploy.md) to get your Kubernetes cluster up and running on a Cloud Foundry foundation for development and testing purposes.
 
 ## Contributing
 Please read [CONTRIBUTING.md](community/CONTRIBUTING.md) for details on the process for submitting pull requests to us.
@@ -14,7 +14,7 @@ Please read [CONTRIBUTING.md](community/CONTRIBUTING.md) for details on the proc
 If you're looking to get started today, you can explore the [good first issue](https://github.com/cloudfoundry/cf-for-k8s/issues?q=is%3Aopen+is%3Aissue+label%3A%22Good+first+issue%22) labelled issues in cf-for-k8s repository. 
 
 ## Built with
-cf-for-k8s is built on top of well known Kubernetes projects like,
+k8s-for-cf is built on top of well known Kubernetes projects like,
 - [istio](https://github.com/istio/istio)
 - [envoy](https://github.com/envoyproxy/envoy) 
 - [fluentd](https://www.fluentd.org/)
@@ -41,4 +41,4 @@ This project includes a test suite that makes use of Concourse pipelines, which 
 
 ## Have a question or feedback, reach out to us
 
-We are very active in slack channel [#cf-for-k8s](https://cloudfoundry.slack.com/archives/CH9LF6V1P) in the Cloud Foundry workspace. Please hit us up with any questions you may have or to share your experience with the cf-for-k8s community. To request a fast reponse during Pacific business hours, begin your message with `#release-integration @interrupt`
+We are very active in slack channel [#k8s-for-cf](https://cloudfoundry.slack.com/archives/CH9LF6V1P) in the Cloud Foundry workspace. Please hit us up with any questions you may have or to share your experience with the k8s-for-cf community. To request a fast reponse during Pacific business hours, begin your message with `#release-integration @interrupt`
